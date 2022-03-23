@@ -1,0 +1,106 @@
+@import url(common/reset.css);
+.section{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-con{
+  flex: 0 1 600px;
+  height: 400px;
+  position: relative;
+  margin: 0 auto;
+  /* border: 1px solid; */
+  background-color: #ccc;
+  overflow: hidden;
+}
+
+.sec-con .gallery{
+  width: 500%;
+  height: inherit;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.sec-con .gallery ul{
+  height: inherit;
+ display: flex;
+ justify-content: space-between;
+}
+
+.sec-con .gallery ul li{
+ flex:1;
+ text-align: center;
+ height: inherit;
+ line-height: 400px;
+ font-size: 30px;
+ /* border: 1px solid; */
+ box-sizing: border-box;
+ color: #fff;
+}
+
+.sec-con .center-btn{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top:50%;
+  transform: translateY(-50%);
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec-con .center-btn span{
+  width:40px;
+  height: 40px;
+  /* border: 1px solid; */
+  background-color: #f0f;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.sec-con .center-btn span:hover{
+  background-color: #f0f8;
+}
+.sec-con .bcon{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  padding:  5px 0;
+  display: flex;
+  justify-content:center;
+}
+
+.sec-con .bcon .items{
+  /* border: 1px solid; */
+  box-sizing: border-box;
+}
+
+.sec-con .bcon .items ul{
+  display: flex;
+  justify-content:space-between;
+  gap: 5px;
+}
+
+.sec-con .bcon .items ul li{
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+.sec-con .bcon .items ul li:hover{
+  background-color: #f0f8;
+}
+.on{
+  background-color: #f0f;
+}

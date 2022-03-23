@@ -1,0 +1,24 @@
+/*footer*/
+.footer{
+    background-color: #555;
+}
+.footer .inner-footer{
+    display: flex;
+    justify-content: center;
+}
+.footer .inner-footer .fcon{
+    flex: 0 1 960px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    line-height: 200px;
+}
+.footer .inner-footer .fcon a{
+    padding: 0 5px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.footer .inner-footer .fcon a:hover{
+    color: rgb(50, 230, 50);
+}
